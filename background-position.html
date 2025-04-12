@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box ;
+    }
+
+    body{
+        background-image: linear-gradient(to right, rgb(20,147,220), rgb(17,54,71));
+    }
+
+    header{
+        padding: 2rem;
+        background-color: aqua;
+    }
+
+    main{
+        padding: 1.5rem;
+    }
+    
+  .caixa {
+    width: 750px;
+    height: 750px;
+    border: 3px solid #333;
+    background-image: url('https://img.freepik.com/fotos-gratis/bela-praia-tropical-e-mar-com-coqueiro-na-ilha-paradisiaca_74190-2206.jpg');
+    background-repeat: no-repeat;
+    background-color: #f0f0f0;
+    
+    /* Altere esta linha para ver diferentes posições: */
+    background-position: center center; /* posição padrão */
+  }
+</style>
+</head>
+<body>
+
+    <header>
+        <h1>background-position</h1>
+    </header>
+    <main>
+    <div class="caixa"></div>
+
+    <p>Experimente trocar o valor de background-position no CSS para:</p>
+    <ul>
+        <li><strong>center center</strong> (centro)</li>
+        <li><strong>left top</strong> (canto superior esquerdo)</li>
+        <li><strong>right top</strong> (canto superior direito)</li>
+        <li><strong>30px 50px</strong> (30px da esquerda, 50px do topo)</li>
+        <li><strong>20% 80%</strong> (20% horizontal, 80% vertical)</li>
+    </ul>
+    <a href="background-size.html">Ir para background-size</a>
+    </main>
+</body>
+</html>
